@@ -1,7 +1,7 @@
 ---
 title: "[neetcode]중복 포함 여부 확인 문제"
 date: 2025-03-26
-categories: [코딩테스트]
+categories: [Algorithm, 코딩테스트]
 tags: [자바, 코딩테스트, 문제 기록]
 toc: true
 published: true

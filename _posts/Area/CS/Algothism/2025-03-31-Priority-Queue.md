@@ -34,6 +34,7 @@ published: true
 | `clear()` | 큐의 모든 요소 제거 | O(n) |
 
 ## Java에서의 PriorityQueue 구현
+
 ```java
 import java.util.PriorityQueue;
 
@@ -86,6 +87,7 @@ public class MaxHeapExample {
 
 ## 객체에 대한 우선순위 큐
 - 객체에 대한 우선순위 큐 구현 시  해당 객체가 Comparable 인터페이스를 구현하거나 Comparator를 제공해야함
+
 ### Comparable 인터페이스 구현
 ```java
 class Person implements Comparable<Person> {
@@ -165,7 +167,6 @@ public class ComparatorExample {
         }
     }
 }
-
 ```
 
 ## 우선순위 큐의 활용 사례

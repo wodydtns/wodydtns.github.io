@@ -60,6 +60,7 @@ public class PriorityQueueExample {
 ```
 
 ## 최대 힙 구현하기
+
 ```java
 import java.util.PriorityQueue;
 import java.util.Collections;
@@ -128,6 +129,7 @@ public class PersonPriorityQueueExample {
 ```
 
 ### Comparator 사용하기
+
 ```java
 import java.util.Comparator;
 import java.util.PriorityQueue;
@@ -167,6 +169,7 @@ public class ComparatorExample {
         }
     }
 }
+
 ```
 
 ## 우선순위 큐의 활용 사례

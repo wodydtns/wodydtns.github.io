@@ -230,6 +230,9 @@ jekyll-archives:
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-redirect-from
 
 pwa:
   enabled: true

@@ -224,6 +224,7 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-redirect-from
+  - jekyll-archives
 
 pwa:
   enabled: true

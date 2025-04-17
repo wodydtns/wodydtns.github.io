@@ -229,11 +229,12 @@ plugins:
 jekyll-archives:
   enabled:
     - tags
+    - categories  # 카테고리 추가
   layouts:
     tag: tag
+    category: category  # 카테고리 레이아웃 지정
   permalinks:
     tag: '/tags/:name/'
-
-
+    category: '/categories/:name/'  # 카테고리 URL 형식 지정
 pwa:
   enabled: true

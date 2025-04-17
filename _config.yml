@@ -233,3 +233,8 @@ plugins:
 
 pwa:
   enabled: true
+
+collections:
+  books:
+    output: true
+    permalink: /books/:title/

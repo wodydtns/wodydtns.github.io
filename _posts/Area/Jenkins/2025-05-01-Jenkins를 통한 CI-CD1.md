@@ -1,5 +1,5 @@
 ---
-title: "사이드 프로젝트를 위한 Jenkins 구축하기"
+title: "사이드 프로젝트를 위한 Jenkins 구축하기1"
 date: 2025-05-01
 categories: [DevOps, Infrastructure]
 tags: [Jenkins, CI/CD, Ubuntu, Server Setup, Side Project, Installation Guide]

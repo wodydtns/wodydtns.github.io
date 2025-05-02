@@ -12,6 +12,11 @@ gem "jekyll-feed", "~> 0.17"
 gem "jekyll-paginate", "~> 1.1"
 gem "jekyll-redirect-from", "~> 0.16"
 
+group :jekyll_plugins do
+  gem 'jekyll-compose'
+end
+
+
 platforms :mingw, :x64_mingw, :mswin, :jruby do
   gem "tzinfo", ">= 1", "< 3"
   gem "tzinfo-data"

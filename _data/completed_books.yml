@@ -1,0 +1,54 @@
+---
+- category: 소설
+  books:
+    - title: 라쇼몽
+      author: 아쿠타가와 류노스케
+      rating: 4
+      date: 2025년 4월
+      tags: [문학, 일본소설]
+
+    - title: 희망
+      author: 양귀자
+      rating: 5
+      date: 2025년 4월
+      tags: [문학, 국내소설]
+    - title: 아우라
+      author: 카를로스 푸엔테스 저자(글) · 송상기 번역
+      rating: 3
+      date: 2025년 3월
+      tags: [문학, 중남미소설]
+
+    - title: 좋아하는 마음 없이(2025 제70회 현대문학상 수상소설집)
+      author: 김지연 외 저자(글)
+      rating: 4
+      date: 2025년 3월
+      tags: [문학, 국내소설]
+
+    - title: 코뿔소
+      author: 외젠 이오네스코 저자(글) · 박형섭 번역
+      rating: 3
+      date: 2025년 2월
+      tags: [문학, 그외유럽소설]
+
+    - title: 환상통
+      author: 이희주
+      rating: 5
+      date: 2025년 1월
+      tags: [문학, 국내소설]
+
+- category: 경제/투자
+  books:
+    - title: 환율의 대전환
+      author: 오건영
+      rating: 4
+      date: 2025년 4월
+      tags: [경제, 재테크, 환율]
+
+    - title: 투자에 대한 생각
+      author: 하워드 막스
+      rating: 5
+      date: 2025년 1월
+      tags: [경제, 재테크, 주식투자]
+
+---
+

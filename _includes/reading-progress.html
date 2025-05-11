@@ -1,0 +1,163 @@
+<div class="reading-stats">
+  <div class="stat-card completed">
+    <div class="stat-icon">📚</div>
+    <div class="stat-number">8</div>
+    <div class="stat-label">완독한 책</div>
+  </div>
+  <div class="stat-card reading">
+    <div class="stat-icon">📖</div>
+    <div class="stat-number">3</div>
+    <div class="stat-label">읽는 중</div>
+  </div>
+  <div class="stat-card planned">
+    <div class="stat-icon">📋</div>
+    <div class="stat-number">3</div>
+    <div class="stat-label">읽을 예정</div>
+  </div>
+  <div class="stat-card yearly">
+    <div class="stat-icon">🎯</div>
+    <div class="stat-number">5</div>
+    <div class="stat-label">2025년 목표: 50권</div>
+    <div class="year-progress-container">
+      <div class="year-progress-bar">
+        <div class="year-progress" style="width: 42%"></div>
+      </div>
+      <span class="year-progress-text">16%</span>
+    </div>
+  </div>
+</div>
+
+<style>
+  .reading-stats {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.2rem;
+    margin: 2rem 0;
+  }
+
+  .stat-card {
+    flex: 1;
+    min-width: 120px;
+    padding: 1.2rem;
+    border-radius: 0.8rem;
+    background-color: var(--card-bg);
+    border: 1px solid var(--border-color);
+    text-align: center;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .stat-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+
+  .stat-card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background-color: currentColor;
+  }
+
+  .stat-icon {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .stat-number {
+    font-size: 2.2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    line-height: 1;
+  }
+
+  .stat-label {
+    font-size: 0.95rem;
+    color: var(--text-muted-color);
+    font-weight: 500;
+  }
+
+  .yearly {
+    flex: 2;
+    min-width: 250px;
+  }
+
+  /* 카드별 색상 구분 */
+  .completed {
+    color: #4caf50;
+    border-left: 4px solid #4caf50;
+  }
+
+  .reading {
+    color: #ff9800;
+    border-left: 4px solid #ff9800;
+  }
+
+  .planned {
+    color: #2196f3;
+    border-left: 4px solid #2196f3;
+  }
+
+  .yearly {
+    color: #9c27b0;
+    border-left: 4px solid #9c27b0;
+  }
+
+  .year-progress-container {
+    display: flex;
+    align-items: center;
+    margin-top: 0.8rem;
+    gap: 10px;
+  }
+
+  .year-progress-bar {
+    flex: 1;
+    height: 0.6rem;
+    background-color: rgba(156, 39, 176, 0.2);
+    border-radius: 1rem;
+    overflow: hidden;
+  }
+
+  .year-progress {
+    height: 100%;
+    background-color: #9c27b0;
+    border-radius: 1rem;
+  }
+
+  .year-progress-text {
+    font-size: 0.85rem;
+    font-weight: bold;
+    color: #9c27b0;
+    min-width: 40px;
+  }
+
+  /* 다크 모드 대응 */
+  [data-mode="dark"] .stat-card {
+    background-color: var(--card-bg);
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+  }
+
+  [data-mode="dark"] .year-progress-bar {
+    background-color: rgba(156, 39, 176, 0.15);
+  }
+
+  /* 반응형 디자인 */
+  @media (max-width: 768px) {
+    .reading-stats {
+      flex-direction: column;
+    }
+
+    .stat-card {
+      min-width: 100%;
+    }
+
+    .yearly {
+      min-width: 100%;
+    }
+  }
+</style>

@@ -11,6 +11,8 @@ gem "jekyll-sitemap", "~> 1.4"
 gem "jekyll-feed", "~> 0.17"
 gem "jekyll-paginate", "~> 1.1"
 gem "jekyll-redirect-from", "~> 0.16"
+gem "logger"      # 추가
+gem "benchmark"   # 추가
 
 group :jekyll_plugins do
   gem 'jekyll-compose'

@@ -238,3 +238,5 @@ jekyll-archives:
     category: '/categories/:name/'  # 카테고리 URL 형식 지정
 pwa:
   enabled: true
+
+port: 4001
